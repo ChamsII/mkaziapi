@@ -2,10 +2,11 @@
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
+
 $app = new \Slim\App;
 
 
-$app->group('/api', function () use ($app) {
+$app->group('/personnes', function () use ($app) {
     // Version group
     $app->group('/v1', function () use ($app) {
         
