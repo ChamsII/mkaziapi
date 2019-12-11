@@ -4,9 +4,9 @@
 class Db {
 
     private $dbhost = "localhost";
-    private $dbuser = "root";
-    private $dbpass = "root";
-    private $dbname = "mkavenir";
+    private $dbuser = "user";
+    private $dbpass = "password";
+    private $dbname = "databasename";
 
     public function connect(){
 
